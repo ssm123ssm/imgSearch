@@ -1,0 +1,20 @@
+{
+  "name": "imgsearch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ssm123ssm",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "get-json": "0.0.3",
+    "https": "^1.0.0",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
