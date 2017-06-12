@@ -1,18 +1,17 @@
 var express = require('express');
-/*
+
 var https = require('https');
 
 var url = "https://www.googleapis.com/customsearch/v1?key=AIzaSyCR08XNichI4Ss1AkJmNPa8v0n3SGemJrk&cx=007815606599508917406:jpelrinl8ps&searchType=image&q=";
 
 var mongo = require("mongodb").MongoClient;
-var mongoURL = "mongodb://ssm123ssm:chandrani123@ds121192.mlab.com:21192/imgsearch"
-*/
+var mongoURL = "mongodb://ssm123ssm:chandrani123@ds121192.mlab.com:21192/imgsearch";
 
 
 
 var app = express();
 //var rest;
-/*
+
 app.get("/imagesearch/:val", function(req, res){
     var q = encodeURI(req.params.val);
     var offset = req.query.offset;
@@ -60,7 +59,7 @@ app.get("/latest/imagesearch", function(req,res){
         });
     });
 });
-*/
+
 
 app.get("/", function(req, res){
     res.send("hello");
