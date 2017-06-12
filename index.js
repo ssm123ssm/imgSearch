@@ -4,7 +4,7 @@ var https = require('https');
 
 var url = "https://www.googleapis.com/customsearch/v1?key=AIzaSyCR08XNichI4Ss1AkJmNPa8v0n3SGemJrk&cx=007815606599508917406:jpelrinl8ps&searchType=image&q=";
 
-var mongo = require("mongodb").MongoClient;
+var mongo = require('mongodb').MongoClient;
 var mongoURL = "mongodb://ssm123ssm:chandrani123@ds121192.mlab.com:21192/imgsearch";
 
 
